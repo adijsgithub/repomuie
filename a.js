@@ -14,5 +14,5 @@ var latura_patrat = 50;
 context.clearRect(0, 0, canvas.width, canvas.height);
 context.fillStyle = "yellow";
 context.beginPath();
-context.fillRect(180, 150, evt.beta, 50);
+context.fillRect(180, 150, 50, evt.gamma);
 }
